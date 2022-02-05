@@ -1,6 +1,22 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),url('/fonts/inter-v7-latin-regular.woff2') format('woff2');
+}
+
+/* inter-700 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: local(''),url('/fonts/inter-v7-latin-800.woff2') format('woff2');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -50,7 +66,7 @@ table {
 
 * {
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', serif;
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
 }

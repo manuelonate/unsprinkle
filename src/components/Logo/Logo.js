@@ -7,7 +7,7 @@ const Logo = () => {
 
 const Wrapper = styled.a`
   font-size: 1.25rem;
-  font-weight: 750;
+  font-weight: 800;
   color: inherit;
   text-decoration: none;
 `;
